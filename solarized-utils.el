@@ -4,7 +4,7 @@
 ;; Maintainer: Will Dey
 ;; Version: 1.0.0
 ;; Package-Requires: ((color-theme-solarized ""))
-;; Homepage: homepage
+;; Homepage: https://github.com/wi11dey/solarized-utils
 ;; Keywords: keywords
 
 ;; This file is not part of GNU Emacs
