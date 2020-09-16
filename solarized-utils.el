@@ -108,7 +108,7 @@
 (defmacro solarized-set-faces (&rest args)
   `(progn
      (put 'solarized 'theme-immediate t)
-     (custom-theme-set-faces 'solarized
+     (custom-theme-set-faces 'user
 			     ,@(mapcar (lambda (arg)
 					 `',(apply #'solarized-create-face-spec-form arg))
 				       args))))
